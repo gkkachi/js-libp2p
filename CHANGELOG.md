@@ -10,6 +10,23 @@
 
 
 
+## [0.40.0](https://www.github.com/gkkachi/js-libp2p/compare/v0.39.5...v0.40.0) (2022-10-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* the old behaviour was to dial any peer we discover, now we just add them to the peer store instead
+
+### Features
+
+* allow skipping encryption and custom muxer factory in upgrader ([#1411](https://www.github.com/gkkachi/js-libp2p/issues/1411)) ([6615efa](https://www.github.com/gkkachi/js-libp2p/commit/6615efa683f55425f90c70815467ec5ddfed1fcb))
+* deny incoming connections and add allow/deny lists ([#1398](https://www.github.com/gkkachi/js-libp2p/issues/1398)) ([c185ef5](https://www.github.com/gkkachi/js-libp2p/commit/c185ef549f599510f258d5d67883f7062c1c944b))
+
+
+### Bug Fixes
+
+* do not auto-dial peers ([#1397](https://www.github.com/gkkachi/js-libp2p/issues/1397)) ([ca30192](https://www.github.com/gkkachi/js-libp2p/commit/ca3019283497040314603d9ca7c0b65c64d1680c))
+
 ### [0.39.5](https://www.github.com/libp2p/js-libp2p/compare/v0.39.4...v0.39.5) (2022-10-05)
 
 
