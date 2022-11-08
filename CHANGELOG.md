@@ -10,6 +10,17 @@
 
 
 
+## [0.41.0](https://www.github.com/gkkachi/js-libp2p/compare/v0.40.0...v0.41.0) (2022-11-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* the libp2p opts have changed to accept a metrics object factory function instead of a config object
+
+### Features
+
+* configure metrics implementation as a module instead of shipping a built-in version ([#1471](https://www.github.com/gkkachi/js-libp2p/issues/1471)) ([5e9dcf3](https://www.github.com/gkkachi/js-libp2p/commit/5e9dcf3d404a975d01ee7171305cc2ab07ea7307))
+
 ## [0.40.0](https://www.github.com/libp2p/js-libp2p/compare/v0.39.5...v0.40.0) (2022-10-17)
 
 
